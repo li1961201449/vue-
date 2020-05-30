@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'antd/dist/antd.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+//将APP 组件标签渲染到html页面上的div上
 ReactDOM.render(
   <React.StrictMode>
     <App />
